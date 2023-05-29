@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux/es/exports";
-import { addCounter, subCounter } from "./features/memory/counter";
+import { addCounter, subCounter } from "@features/redux/reducers/counter";
 
 export default function App() {
 	const counter = useSelector((state: any) => state.counter);
